@@ -2131,7 +2131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Slew A"
+		(property "Value" "Slew B"
 			(at 40.64 127 0)
 			(effects
 				(font
@@ -2408,7 +2408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV Amt A"
+		(property "Value" "CV A"
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -2831,7 +2831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV Amt A"
+		(property "Value" "CV B"
 			(at 66.04 127 0)
 			(effects
 				(font
