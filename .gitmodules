@@ -1,3 +1,6 @@
 [submodule "DMH_Slew_PANEL/Libraries/SynthStuff"]
 	path = DMH_Slew_PANEL/Libraries/SynthStuff
 	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
+[submodule "DMH_Slew_PCB_1/Libraries/SynthStuff"]
+	path = DMH_Slew_PCB_1/Libraries/SynthStuff
+	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
