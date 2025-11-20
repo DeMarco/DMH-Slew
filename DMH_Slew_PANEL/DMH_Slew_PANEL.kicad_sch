@@ -1839,7 +1839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Shape"
+		(property "Value" "Lin/Exp"
 			(at 104.14 114.3 0)
 			(effects
 				(font
@@ -1909,7 +1909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Shape"
+		(property "Value" "Lin/Exp"
 			(at 104.14 127 0)
 			(effects
 				(font
@@ -2049,7 +2049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Mode"
+		(property "Value" "Dual"
 			(at 104.14 152.4 0)
 			(effects
 				(font
