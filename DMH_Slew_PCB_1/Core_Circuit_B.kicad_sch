@@ -1297,7 +1297,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-12V"
+		(symbol "power:-10V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1318,7 +1318,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "-12V"
+			(property "Value" "-10V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1344,7 +1344,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(property "Description" "Power symbol creates a global label with name \"-10V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1362,7 +1362,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "-12V_0_0"
+			(symbol "-10V_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1382,7 +1382,7 @@
 					)
 				)
 			)
-			(symbol "-12V_0_1"
+			(symbol "-10V_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
@@ -1499,6 +1499,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "What to expect here when CV goes negative?"
+		(exclude_from_sim no)
+		(at 165.354 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c4976f8-046d-4c00-973a-24552be0cf04")
 	)
 	(junction
 		(at 165.1 123.19)
@@ -3081,7 +3091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-12V")
+		(lib_id "power:-10V")
 		(at 165.1 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3089,7 +3099,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "276aa418-7587-47de-9d70-5afb0d261e54")
+		(uuid "2b1ebb37-2485-4df3-a2ba-dab7ef488604")
 		(property "Reference" "#PWR025"
 			(at 165.1 62.23 0)
 			(effects
@@ -3099,7 +3109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-12V"
+		(property "Value" "-10V"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -3125,7 +3135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
+		(property "Description" "Power symbol creates a global label with name \"-10V\""
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -3135,7 +3145,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ab7e8d4-adde-493c-986c-ef541f51ca01")
+			(uuid "93c95bc6-1540-4eb8-887d-c95aad42f820")
 		)
 		(instances
 			(project "DMH_Slew_PCB_1"
@@ -3864,7 +3874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Lin / Exp"
+		(property "Function" "Lin / Log"
 			(at 98.552 124.714 90)
 			(effects
 				(font

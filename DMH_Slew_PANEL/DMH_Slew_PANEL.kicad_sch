@@ -1839,7 +1839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lin/Exp"
+		(property "Value" "Lin/Log"
 			(at 104.14 114.3 0)
 			(effects
 				(font
@@ -1909,7 +1909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lin/Exp"
+		(property "Value" "Lin/Log"
 			(at 104.14 127 0)
 			(effects
 				(font

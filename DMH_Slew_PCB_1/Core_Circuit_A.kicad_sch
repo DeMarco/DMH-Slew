@@ -1297,7 +1297,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-12V"
+		(symbol "power:-10V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1318,7 +1318,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "-12V"
+			(property "Value" "-10V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1344,7 +1344,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(property "Description" "Power symbol creates a global label with name \"-10V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1362,7 +1362,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "-12V_0_0"
+			(symbol "-10V_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1382,7 +1382,7 @@
 					)
 				)
 			)
-			(symbol "-12V_0_1"
+			(symbol "-10V_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
@@ -1499,6 +1499,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "What to expect here when CV goes negative?"
+		(exclude_from_sim no)
+		(at 165.354 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "142f08ab-7f10-4654-bc08-95a2d1f0967b")
 	)
 	(junction
 		(at 165.1 123.19)
@@ -3081,72 +3091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-12V")
-		(at 165.1 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "276aa418-7587-47de-9d70-5afb0d261e54")
-		(property "Reference" "#PWR021"
-			(at 165.1 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 165.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ab7e8d4-adde-493c-986c-ef541f51ca01")
-		)
-		(instances
-			(project "DMH_Slew_PCB_1"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 158.75 63.5 90)
 		(mirror x)
@@ -3864,7 +3808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Lin / Exp"
+		(property "Function" "Lin / Log"
 			(at 98.806 124.714 90)
 			(effects
 				(font
@@ -5080,6 +5024,72 @@
 			(project "DMH_Slew_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-10V")
+		(at 165.1 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e9fb7b-33bb-46b7-aa17-966768bc2b17")
+		(property "Reference" "#PWR021"
+			(at 165.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-10V"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-10V\""
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f3d7fe7-3abd-44e4-8655-f88ec3b70f66")
+		)
+		(instances
+			(project ""
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
