@@ -2049,7 +2049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Dual"
+		(property "Value" "A & B"
 			(at 104.14 152.4 0)
 			(effects
 				(font
