@@ -1500,16 +1500,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "What to expect here when CV goes negative?"
-		(exclude_from_sim no)
-		(at 165.354 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9c4976f8-046d-4c00-973a-24552be0cf04")
-	)
 	(junction
 		(at 165.1 123.19)
 		(diameter 0)
@@ -3174,7 +3164,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "68k"
 			(at 158.75 67.31 90)
 			(effects
 				(font
@@ -3207,6 +3197,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 158.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3492,7 +3490,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "68k"
 			(at 171.45 67.31 90)
 			(effects
 				(font
@@ -3525,6 +3523,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
