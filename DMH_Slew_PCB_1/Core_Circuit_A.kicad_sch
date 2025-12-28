@@ -1500,6 +1500,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 76.454 139.192)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 06bab415-f76c-4249-bafc-22a7c3e87e3b)
+	)
+	(circle
+		(center 45.72 152.4)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4818c9ca-38b2-4f5b-b6cb-769236d527e5)
+	)
+	(rectangle
+		(start 135.89 45.72)
+		(end 199.39 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d7d35486-ebde-4e57-9ea9-ecd0f9299b57)
+	)
+	(circle
+		(center 83.82 152.4)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dbe989ef-a96b-4bc1-a489-143e4b705096)
+	)
 	(text "What to expect here when CV goes negative?"
 		(exclude_from_sim no)
 		(at 165.354 33.528 0)
@@ -1509,6 +1557,36 @@
 			)
 		)
 		(uuid "142f08ab-7f10-4654-bc08-95a2d1f0967b")
+	)
+	(text "2k2 in breadboard"
+		(exclude_from_sim no)
+		(at 71.882 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15d11a95-0959-4d30-89cf-49d4b9a2a61f")
+	)
+	(text "51k in breadboard"
+		(exclude_from_sim no)
+		(at 165.608 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f6b909b-c4e9-4bcd-92d7-898993abf2e7")
+	)
+	(text "51k in breadboard"
+		(exclude_from_sim no)
+		(at 56.896 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb9fc9f9-0710-4710-8848-46d6d184ca6c")
 	)
 	(junction
 		(at 165.1 123.19)
