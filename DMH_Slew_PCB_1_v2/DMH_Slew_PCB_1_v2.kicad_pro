@@ -685,6 +685,10 @@
     [
       "0cdf34b2-39cd-4d9e-981a-97cd34791509",
       "Power"
+    ],
+    [
+      "695faa68-e325-44bd-a237-dc69a864c9b9",
+      "State Gate Outputs"
     ]
   ],
   "text_variables": {}
