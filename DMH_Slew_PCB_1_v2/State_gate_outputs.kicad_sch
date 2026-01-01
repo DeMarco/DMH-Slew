@@ -538,24 +538,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Dual_AKA"
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 5.715 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LED_Dual_AKA"
-				(at 0 -6.35 0)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -580,7 +583,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual LED, common cathode on pin 2"
+			(property "Description" "Light emitting diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -589,7 +592,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode bicolor dual"
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -607,10 +619,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Dual_AKA_0_1"
+			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -4.572 0) (xy -2.54 0)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -620,20 +632,33 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -2.54 0)
-					(radius 0.2794)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 3.81)
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -645,105 +670,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 -3.81)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 4.572)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.032 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 1.905 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -751,29 +681,11 @@
 					)
 				)
 			)
-			(symbol "LED_Dual_AKA_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.048)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
 					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -788,17 +700,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "A2"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2093,16 +2005,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 66.04) (xy 231.14 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b5a0fb-8a6b-476f-9720-d889ca9fc811")
-	)
-	(wire
-		(pts
 			(xy 187.96 60.96) (xy 191.77 60.96)
 		)
 		(stroke
@@ -2130,6 +2032,16 @@
 			(type default)
 		)
 		(uuid "0c1a724f-643a-4415-a494-bcb1c812492c")
+	)
+	(wire
+		(pts
+			(xy 231.14 76.2) (xy 231.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f71a1bd-672f-4c2b-95c4-5ca9e8f28ea9")
 	)
 	(wire
 		(pts
@@ -2200,16 +2112,6 @@
 			(type default)
 		)
 		(uuid "20913b53-68ab-48d5-a008-eb74541ae99c")
-	)
-	(wire
-		(pts
-			(xy 256.54 104.14) (xy 256.54 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "267412bb-c98e-4821-ba0a-6ea1070f1399")
 	)
 	(wire
 		(pts
@@ -2293,16 +2195,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 107.95) (xy 236.22 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d64312a-86d6-4813-ba0e-81909a8c79ae")
-	)
-	(wire
-		(pts
 			(xy 127 76.2) (xy 139.7 76.2)
 		)
 		(stroke
@@ -2310,16 +2202,6 @@
 			(type default)
 		)
 		(uuid "4478d01b-6011-4007-950c-383d772e2cc1")
-	)
-	(wire
-		(pts
-			(xy 256.54 107.95) (xy 236.22 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46970a90-5dfb-4315-b261-beaa77b84fe6")
 	)
 	(wire
 		(pts
@@ -2340,6 +2222,16 @@
 			(type default)
 		)
 		(uuid "55bafe83-6dd2-4983-bc3a-f640b3fd3505")
+	)
+	(wire
+		(pts
+			(xy 231.14 66.04) (xy 231.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f31f14-e8d1-4266-af8f-e9cf61ef7352")
 	)
 	(wire
 		(pts
@@ -2433,16 +2325,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 134.62) (xy 233.68 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dddd650-abbe-41ad-9129-1774cca441ba")
-	)
-	(wire
-		(pts
 			(xy 177.8 111.76) (xy 177.8 114.3)
 		)
 		(stroke
@@ -2473,6 +2355,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 104.14) (xy 256.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0e63d9-8ecb-4dcf-b897-6dcaff3a5685")
+	)
+	(wire
+		(pts
 			(xy 139.7 76.2) (xy 139.7 96.52)
 		)
 		(stroke
@@ -2490,6 +2382,16 @@
 			(type default)
 		)
 		(uuid "94942c8d-aace-4738-8f78-e324d5801a63")
+	)
+	(wire
+		(pts
+			(xy 256.54 114.3) (xy 256.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7dbe8c-27fd-416b-84f9-66da09c846aa")
 	)
 	(wire
 		(pts
@@ -2918,6 +2820,72 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/695faa68-e325-44bd-a237-dc69a864c9b9"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f008b03-3253-4e58-95b7-df0c0f4d1abb")
+		(property "Reference" "#PWR040"
+			(at 231.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "864870c4-9ddb-44e4-8a11-9f7c4c7e6823")
+		)
+		(instances
+			(project "DMH_Slew_PCB_1_v2"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/695faa68-e325-44bd-a237-dc69a864c9b9"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3855,87 +3823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AKA")
-		(at 233.68 127 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b2f650c-6877-4c3c-9472-c462457a27e7")
-		(property "Reference" "D5"
-			(at 227.33 125.6664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_RY"
-			(at 227.33 128.2064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SynthStuff:LED_D3.0mm-2color"
-			(at 233.68 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual LED, common cathode on pin 2"
-			(at 233.68 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" ""
-			(at 233.68 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "bf3fd177-4416-4397-9131-0f80b7be38e9")
-		)
-		(pin "2"
-			(uuid "5e944f05-0cde-4eb7-bf69-ea2effc71a95")
-		)
-		(pin "1"
-			(uuid "c7e06794-2df1-419d-8ceb-c5829d6dc4e3")
-		)
-		(instances
-			(project ""
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/695faa68-e325-44bd-a237-dc69a864c9b9"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 120.65 76.2 270)
 		(unit 1)
@@ -4595,16 +4482,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 137.16 0)
+		(at 256.54 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bfa06d95-526a-4532-b047-0489c25d4a0e")
-		(property "Reference" "#PWR040"
-			(at 233.68 143.51 0)
+		(uuid "c0193f83-13f4-42bc-b1c0-dbd5e17ee45d")
+		(property "Reference" "#PWR041"
+			(at 256.54 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4500,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 142.24 0)
+			(at 256.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 137.16 0)
+			(at 256.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 137.16 0)
+			(at 256.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 137.16 0)
+			(at 256.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,12 +4535,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eabe8444-575d-49fc-ad13-6f159c114ff9")
+			(uuid "077912e2-1646-46fb-b48a-29c9a9f22c54")
 		)
 		(instances
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/695faa68-e325-44bd-a237-dc69a864c9b9"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4791,6 +4678,85 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/695faa68-e325-44bd-a237-dc69a864c9b9"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 231.14 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5ad9c6d-21a3-47d0-ba7f-24cd0e75ad57")
+		(property "Reference" "D5"
+			(at 234.95 72.7074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Y"
+			(at 234.95 75.2474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "311bf071-1b76-4754-bf5e-a3fbb6760ae9")
+		)
+		(pin "1"
+			(uuid "a68b0045-01c9-4caa-ba38-2d77fca9682c")
+		)
+		(instances
+			(project ""
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/695faa68-e325-44bd-a237-dc69a864c9b9"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5212,46 +5178,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "b5ccbbc9-620d-4c65-8d7c-6ef92de723af")
+			(uuid "b5ccbbc9-620d-4c65-8d7c-6ef92de723b0")
 		)
 		(pin "2"
-			(uuid "5088440c-f338-4098-ac0f-1b773719e6b5")
+			(uuid "5088440c-f338-4098-ac0f-1b773719e6b6")
 		)
 		(pin "5"
-			(uuid "135467ae-bdce-432f-8e91-65a669178347")
+			(uuid "135467ae-bdce-432f-8e91-65a669178348")
 		)
 		(pin "1"
-			(uuid "9f4ed33f-ed1a-4d73-a83f-c1055fe73e38")
+			(uuid "9f4ed33f-ed1a-4d73-a83f-c1055fe73e39")
 		)
 		(pin "10"
-			(uuid "f41d320d-42dd-4d82-aff5-cc819fb88a1e")
+			(uuid "f41d320d-42dd-4d82-aff5-cc819fb88a1f")
 		)
 		(pin "8"
-			(uuid "16d4aa11-979d-401d-8d40-c423ddb0ea9d")
+			(uuid "16d4aa11-979d-401d-8d40-c423ddb0ea9e")
 		)
 		(pin "14"
-			(uuid "72fe9d82-b305-442c-8bc2-444cb7593038")
+			(uuid "72fe9d82-b305-442c-8bc2-444cb7593039")
 		)
 		(pin "11"
-			(uuid "e17729f8-9e65-4b36-ae51-fe0d22aaf8a3")
+			(uuid "e17729f8-9e65-4b36-ae51-fe0d22aaf8a4")
 		)
 		(pin "3"
-			(uuid "24bb428d-890c-4eb6-a083-bd3f906fe0fd")
+			(uuid "24bb428d-890c-4eb6-a083-bd3f906fe0fe")
 		)
 		(pin "12"
-			(uuid "7d1d3242-7b6e-4ace-944a-fe2bb5211e4d")
+			(uuid "7d1d3242-7b6e-4ace-944a-fe2bb5211e4e")
 		)
 		(pin "13"
-			(uuid "c58fda9d-9f4c-469d-a2e0-6c9ed227bff9")
+			(uuid "c58fda9d-9f4c-469d-a2e0-6c9ed227bffa")
 		)
 		(pin "6"
-			(uuid "b8dd6b98-2744-473e-ba9e-39b9e4482a91")
+			(uuid "b8dd6b98-2744-473e-ba9e-39b9e4482a92")
 		)
 		(pin "9"
-			(uuid "fca029d6-34e2-4545-a9be-3f06d89c4561")
+			(uuid "fca029d6-34e2-4545-a9be-3f06d89c4562")
 		)
 		(pin "7"
-			(uuid "ec38768f-4234-484f-8094-91c781519ef5")
+			(uuid "ec38768f-4234-484f-8094-91c781519ef6")
 		)
 		(instances
 			(project ""
@@ -5336,6 +5302,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 256.54 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9cef55a-16aa-416d-ba96-0e468317a8fe")
+		(property "Reference" "D6"
+			(at 260.35 110.8074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_R"
+			(at 260.35 113.3474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc2a36e2-f9c8-4f78-a852-9220edf53b3b")
+		)
+		(pin "1"
+			(uuid "0100396e-572d-47f4-9a99-bb0e59898a21")
+		)
+		(instances
+			(project "DMH_Slew_PCB_1_v2"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/695faa68-e325-44bd-a237-dc69a864c9b9"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 152.4 60.96 0)
 		(unit 3)
@@ -5397,46 +5442,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "b5ccbbc9-620d-4c65-8d7c-6ef92de723af")
+			(uuid "b5ccbbc9-620d-4c65-8d7c-6ef92de723b1")
 		)
 		(pin "2"
-			(uuid "5088440c-f338-4098-ac0f-1b773719e6b5")
+			(uuid "5088440c-f338-4098-ac0f-1b773719e6b7")
 		)
 		(pin "5"
-			(uuid "135467ae-bdce-432f-8e91-65a669178347")
+			(uuid "135467ae-bdce-432f-8e91-65a669178349")
 		)
 		(pin "1"
-			(uuid "9f4ed33f-ed1a-4d73-a83f-c1055fe73e38")
+			(uuid "9f4ed33f-ed1a-4d73-a83f-c1055fe73e3a")
 		)
 		(pin "10"
-			(uuid "f41d320d-42dd-4d82-aff5-cc819fb88a1e")
+			(uuid "f41d320d-42dd-4d82-aff5-cc819fb88a20")
 		)
 		(pin "8"
-			(uuid "16d4aa11-979d-401d-8d40-c423ddb0ea9d")
+			(uuid "16d4aa11-979d-401d-8d40-c423ddb0ea9f")
 		)
 		(pin "14"
-			(uuid "72fe9d82-b305-442c-8bc2-444cb7593038")
+			(uuid "72fe9d82-b305-442c-8bc2-444cb759303a")
 		)
 		(pin "11"
-			(uuid "e17729f8-9e65-4b36-ae51-fe0d22aaf8a3")
+			(uuid "e17729f8-9e65-4b36-ae51-fe0d22aaf8a5")
 		)
 		(pin "3"
-			(uuid "24bb428d-890c-4eb6-a083-bd3f906fe0fd")
+			(uuid "24bb428d-890c-4eb6-a083-bd3f906fe0ff")
 		)
 		(pin "12"
-			(uuid "7d1d3242-7b6e-4ace-944a-fe2bb5211e4d")
+			(uuid "7d1d3242-7b6e-4ace-944a-fe2bb5211e4f")
 		)
 		(pin "13"
-			(uuid "c58fda9d-9f4c-469d-a2e0-6c9ed227bff9")
+			(uuid "c58fda9d-9f4c-469d-a2e0-6c9ed227bffb")
 		)
 		(pin "6"
-			(uuid "b8dd6b98-2744-473e-ba9e-39b9e4482a91")
+			(uuid "b8dd6b98-2744-473e-ba9e-39b9e4482a93")
 		)
 		(pin "9"
-			(uuid "fca029d6-34e2-4545-a9be-3f06d89c4561")
+			(uuid "fca029d6-34e2-4545-a9be-3f06d89c4563")
 		)
 		(pin "7"
-			(uuid "ec38768f-4234-484f-8094-91c781519ef5")
+			(uuid "ec38768f-4234-484f-8094-91c781519ef7")
 		)
 		(instances
 			(project ""
