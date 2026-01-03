@@ -1790,30 +1790,6 @@
 		)
 	)
 	(circle
-		(center 180.086 107.442)
-		(radius 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 11692841-7b72-4755-bde5-5d6faa5896a2)
-	)
-	(circle
-		(center 258.826 101.092)
-		(radius 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 656e0f61-f096-4e90-87e3-00cdfa01a5e5)
-	)
-	(circle
 		(center 130.81 57.15)
 		(radius 6.35)
 		(stroke
@@ -1824,30 +1800,6 @@
 			(type none)
 		)
 		(uuid 85942b40-c197-4178-9c78-5ddd36dfe90f)
-	)
-	(circle
-		(center 180.34 69.85)
-		(radius 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9a204d0a-660e-44a8-b1a2-0fe820b526f5)
-	)
-	(circle
-		(center 233.426 61.722)
-		(radius 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b3390d4a-8d26-44c2-a703-80de544d1222)
 	)
 	(circle
 		(center 130.556 106.68)
@@ -1861,37 +1813,7 @@
 		)
 		(uuid f4e5b411-ff90-479a-9777-504271215592)
 	)
-	(text "2k2 in bb"
-		(exclude_from_sim no)
-		(at 238.76 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06fca66a-454b-4dfa-b66e-dc002e872858")
-	)
-	(text "100k in bb"
-		(exclude_from_sim no)
-		(at 185.674 76.708 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "697f6899-2d33-4eba-83b4-678aa2233590")
-	)
-	(text "100k in bb"
-		(exclude_from_sim no)
-		(at 185.42 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a73563d3-2f28-4aae-a294-96e8aece798c")
-	)
-	(text "5M in bb"
+	(text "5M1 in bb"
 		(exclude_from_sim no)
 		(at 137.16 99.06 0)
 		(effects
@@ -1901,7 +1823,7 @@
 		)
 		(uuid "b29d2ac7-6ee9-48c2-bbf4-ce1c3d849c46")
 	)
-	(text "5M in bb"
+	(text "5M1 in bb"
 		(exclude_from_sim no)
 		(at 137.414 49.53 0)
 		(effects
@@ -1910,16 +1832,6 @@
 			)
 		)
 		(uuid "fd3dc00d-72d1-4ca7-b58c-6bf1e377ea12")
-	)
-	(text "2k2 in bb"
-		(exclude_from_sim no)
-		(at 264.16 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ffd482b2-21d5-4984-9cc4-05097ecab07c")
 	)
 	(junction
 		(at 177.8 60.96)
@@ -3131,7 +3043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 180.34 109.2199 0)
 			(effects
 				(font
@@ -3423,7 +3335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 180.34 71.1199 0)
 			(effects
 				(font
@@ -4086,7 +3998,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 259.08 101.5999 0)
 			(effects
 				(font
@@ -4156,7 +4068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k8"
 			(at 233.68 63.4999 0)
 			(effects
 				(font
