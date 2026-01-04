@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 114.3 96.52) (xy 127 96.52)
+			(xy 114.3 45.72) (xy 127 45.72)
 		)
 		(stroke
 			(width 0)
@@ -22,7 +22,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 127 88.9)
+			(xy 114.3 38.1) (xy 127 38.1)
 		)
 		(stroke
 			(width 0)
@@ -31,7 +31,7 @@
 		(uuid "75c325e8-f04b-4df8-9cef-ad13c223c6ea")
 	)
 	(sheet
-		(at 163.83 40.64)
+		(at 165.1 38.1)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47,7 +47,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 163.83 39.9284 0)
+			(at 165.1 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 163.83 66.6246 0)
+			(at 165.1 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			)
 		)
 		(pin "Bus CV" output
-			(at 163.83 58.42 180)
+			(at 165.1 55.88 180)
 			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
 			(effects
 				(font
@@ -84,7 +84,50 @@
 		)
 	)
 	(sheet
-		(at 127 76.2)
+		(at 25.4 88.9)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3cb12e84-592b-4447-ad9a-3f661989b333")
+		(property "Sheetname" "Controls Board"
+			(at 25.4 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controls_board.kicad_sch"
+			(at 25.4 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DMH_Slew_PCB_1_v2"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
 		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -100,7 +143,7 @@
 		)
 		(uuid "695faa68-e325-44bd-a237-dc69a864c9b9")
 		(property "Sheetname" "State Gate Outputs"
-			(at 127 75.4884 0)
+			(at 127 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +152,7 @@
 			)
 		)
 		(property "Sheetfile" "State_gate_outputs.kicad_sch"
-			(at 127 127.5846 0)
+			(at 127 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,7 +162,7 @@
 			)
 		)
 		(pin "Input" input
-			(at 127 88.9 180)
+			(at 127 38.1 180)
 			(uuid "5539e3ed-df62-41a9-bd72-4860ca9a0dde")
 			(effects
 				(font
@@ -129,7 +172,7 @@
 			)
 		)
 		(pin "Output" input
-			(at 127 96.52 180)
+			(at 127 45.72 180)
 			(uuid "4c14aa32-8662-4d90-a354-cc0b07cf1159")
 			(effects
 				(font
@@ -147,7 +190,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 76.2)
+		(at 63.5 25.4)
 		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -163,7 +206,7 @@
 		)
 		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
 		(property "Sheetname" "Core Circuit"
-			(at 63.5 75.4884 0)
+			(at 63.5 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,7 +215,7 @@
 			)
 		)
 		(property "Sheetfile" "Core_Circuit.kicad_sch"
-			(at 63.5 127.5846 0)
+			(at 63.5 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,7 +225,7 @@
 			)
 		)
 		(pin "Input" output
-			(at 114.3 88.9 0)
+			(at 114.3 38.1 0)
 			(uuid "fec7cfaa-4888-431b-a598-449a4558e18c")
 			(effects
 				(font
@@ -192,7 +235,7 @@
 			)
 		)
 		(pin "Output" output
-			(at 114.3 96.52 0)
+			(at 114.3 45.72 0)
 			(uuid "69c1c706-0ab1-4f43-a429-5a25b84d204d")
 			(effects
 				(font
@@ -210,7 +253,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 76.2)
+		(at 25.4 25.4)
 		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -225,8 +268,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
-		(property "Sheetname" "Inputs and Outputs"
-			(at 25.4 75.4884 0)
+		(property "Sheetname" "Mother Board"
+			(at 25.4 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,8 +277,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
-			(at 25.4 127.5846 0)
+		(property "Sheetfile" "Mother_board.kicad_sch"
+			(at 25.4 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
