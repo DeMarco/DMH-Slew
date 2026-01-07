@@ -675,10 +675,6 @@
       "Root"
     ],
     [
-      "ce3fef8b-9f1d-4178-b50b-4a046c030679",
-      "Mother Board"
-    ],
-    [
       "7ad2d702-dfb7-4d49-a82d-34430dd5948f",
       "Core Circuit"
     ],
@@ -689,10 +685,6 @@
     [
       "695faa68-e325-44bd-a237-dc69a864c9b9",
       "State Gate Outputs"
-    ],
-    [
-      "3cb12e84-592b-4447-ad9a-3f661989b333",
-      "Controls Board"
     ]
   ],
   "text_variables": {}

@@ -30,8 +30,18 @@
 		)
 		(uuid "75c325e8-f04b-4df8-9cef-ad13c223c6ea")
 	)
+	(wire
+		(pts
+			(xy 50.8 50.8) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31abfbb-7d70-4304-a1f2-f4702ba9a530")
+	)
 	(sheet
-		(at 165.1 38.1)
+		(at 25.4 38.1)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47,7 +57,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 165.1 37.3884 0)
+			(at 25.4 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +66,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 165.1 64.0846 0)
+			(at 25.4 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,62 +76,19 @@
 			)
 		)
 		(pin "Bus CV" output
-			(at 165.1 55.88 180)
+			(at 50.8 50.8 0)
 			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.4 88.9)
-		(size 25.4 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3cb12e84-592b-4447-ad9a-3f661989b333")
-		(property "Sheetname" "Controls Board"
-			(at 25.4 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Controls_board.kicad_sch"
-			(at 25.4 127.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "DMH_Slew_PCB_1_v2"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "6")
 				)
 			)
 		)
@@ -244,53 +211,20 @@
 				(justify right)
 			)
 		)
-		(instances
-			(project "DMH_Slew_PCB_1_v2"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.4 25.4)
-		(size 25.4 50.8)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
-		(property "Sheetname" "Mother Board"
-			(at 25.4 24.6884 0)
+		(pin "Bus CV" input
+			(at 63.5 50.8 180)
+			(uuid "69314dbc-a230-4e1b-ab84-89164b96624e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Mother_board.kicad_sch"
-			(at 25.4 76.7846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
