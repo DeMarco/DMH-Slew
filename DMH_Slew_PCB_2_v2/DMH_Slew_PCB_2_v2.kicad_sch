@@ -106,7 +106,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_PCB_1_v2"
+			(project "DMH_Slew_PCB_2_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "6")
 				)
@@ -169,7 +169,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_PCB_1_v2"
+			(project "DMH_Slew_PCB_2_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "3")
 				)
@@ -232,7 +232,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_PCB_1_v2"
+			(project "DMH_Slew_PCB_2_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
 				)
@@ -305,7 +305,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_PCB_1_v2"
+			(project "DMH_Slew_PCB_2_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
 				)
@@ -368,7 +368,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Slew_PCB_1_v2"
+			(project "DMH_Slew_PCB_2_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "5")
 				)
