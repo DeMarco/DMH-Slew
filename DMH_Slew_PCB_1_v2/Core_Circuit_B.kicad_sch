@@ -5674,7 +5674,7 @@
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 190.5 30.48 90)
 		(mirror x)
-		(unit 6)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5761,7 +5761,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/77d402a4-d1d6-4e9c-af86-3ca5793147b8"
 					(reference "J60")
-					(unit 6)
+					(unit 2)
 				)
 			)
 		)
@@ -6553,7 +6553,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 240.03 60.96 90)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6641,7 +6641,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/77d402a4-d1d6-4e9c-af86-3ca5793147b8"
 					(reference "J61")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -7556,7 +7556,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 231.14 109.22 90)
-		(unit 3)
+		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7644,7 +7644,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/77d402a4-d1d6-4e9c-af86-3ca5793147b8"
 					(reference "J61")
-					(unit 3)
+					(unit 6)
 				)
 			)
 		)
@@ -7652,7 +7652,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 196.85 115.57 90)
-		(unit 5)
+		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7740,7 +7740,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/77d402a4-d1d6-4e9c-af86-3ca5793147b8"
 					(reference "J61")
-					(unit 5)
+					(unit 7)
 				)
 			)
 		)
@@ -8331,7 +8331,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 64.77 57.15 90)
-		(unit 3)
+		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8419,7 +8419,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/77d402a4-d1d6-4e9c-af86-3ca5793147b8"
 					(reference "J60")
-					(unit 3)
+					(unit 6)
 				)
 			)
 		)
@@ -8777,7 +8777,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 196.85 92.71 270)
-		(unit 4)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8865,7 +8865,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/77d402a4-d1d6-4e9c-af86-3ca5793147b8"
 					(reference "J61")
-					(unit 4)
+					(unit 5)
 				)
 			)
 		)
@@ -9153,7 +9153,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 240.03 40.64 270)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9241,7 +9241,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/77d402a4-d1d6-4e9c-af86-3ca5793147b8"
 					(reference "J61")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -9451,7 +9451,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 139.7 74.93 90)
-		(unit 5)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9539,7 +9539,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/77d402a4-d1d6-4e9c-af86-3ca5793147b8"
 					(reference "J60")
-					(unit 5)
+					(unit 3)
 				)
 			)
 		)

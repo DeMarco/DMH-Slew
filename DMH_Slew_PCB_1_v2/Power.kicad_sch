@@ -6093,7 +6093,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 140.97 165.1 0)
-		(unit 2)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6180,7 +6180,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "J60")
-					(unit 2)
+					(unit 5)
 				)
 			)
 		)
@@ -7222,7 +7222,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 102.87 165.1 0)
-		(unit 2)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7309,7 +7309,7 @@
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "J50")
-					(unit 2)
+					(unit 5)
 				)
 			)
 		)

@@ -3268,7 +3268,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 251.46 106.68 0)
-		(unit 7)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3292,7 +3292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 251.46 106.68 0)
 			(effects
 				(font
@@ -3317,6 +3317,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -3347,7 +3355,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/a1b8698d-b4e4-404a-8e9c-ccbb5494e3d6"
 					(reference "J61")
-					(unit 7)
+					(unit 3)
 				)
 			)
 		)
@@ -3934,7 +3942,7 @@
 	(symbol
 		(lib_id "SynthStuff:Conn_01x08_PinHeader")
 		(at 226.06 55.88 0)
-		(unit 6)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3958,7 +3966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 226.06 55.88 0)
 			(effects
 				(font
@@ -3983,6 +3991,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -4013,7 +4029,7 @@
 			(project "DMH_Slew_PCB_1_v2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/a1b8698d-b4e4-404a-8e9c-ccbb5494e3d6"
 					(reference "J61")
-					(unit 6)
+					(unit 4)
 				)
 			)
 		)
