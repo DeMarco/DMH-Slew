@@ -3545,7 +3545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Falling A"
+		(property "Function" "Falling B"
 			(at 209.55 53.848 0)
 			(effects
 				(font
@@ -4423,7 +4423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Rising A"
+		(property "Function" "Rising B"
 			(at 209.55 91.948 0)
 			(effects
 				(font
@@ -4545,7 +4545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 151.13 101.6 0)
 			(effects
 				(font
@@ -5772,7 +5772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 62.23 78.74 0)
 			(effects
 				(font
@@ -5883,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 			(at 259.08 90.805 0)
 			(effects
 				(font
@@ -6036,7 +6036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 151.13 58.42 0)
 			(effects
 				(font

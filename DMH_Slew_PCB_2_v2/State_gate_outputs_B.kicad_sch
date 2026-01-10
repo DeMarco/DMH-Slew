@@ -3545,7 +3545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Falling A"
+		(property "Function" "Falling B"
 			(at 209.55 53.848 0)
 			(effects
 				(font
@@ -4423,7 +4423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Rising A"
+		(property "Function" "Rising B"
 			(at 209.55 91.948 0)
 			(effects
 				(font

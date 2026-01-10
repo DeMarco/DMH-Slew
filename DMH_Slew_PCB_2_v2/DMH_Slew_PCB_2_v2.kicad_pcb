@@ -163,6 +163,7 @@
 	(net 33 "Net-(J51G-Pin_7)")
 	(net 34 "Net-(J61G-Pin_7)")
 	(footprint "SynthStuff:Toggle_Switch_TE"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "00b37a57-1a9c-49e5-ac3a-6fc7c67ed6ed")
 		(at 58.5 175.75)
@@ -709,6 +710,7 @@
 		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2dc4d5a6-6c76-48a5-b260-ef0b3bd8547b")
 		(at 67.73 135)
@@ -961,6 +963,7 @@
 		)
 	)
 	(footprint "SynthStuff:Toggle_Switch_2_Poles_TE"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "39f0b912-e16d-432e-8c95-451e6b0329c4")
 		(at 58.5 135)
@@ -1144,6 +1147,7 @@
 		)
 	)
 	(footprint "SynthStuff:Toggle_Switch_2_Poles_TE"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3d9f1798-f22a-48c8-92e2-cbfe35d48a20")
 		(at 91.5 57)
@@ -2479,6 +2483,7 @@
 		)
 	)
 	(footprint "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "686ae63d-aa35-4d5f-9a71-208f8d504597")
 		(at 63.5 116.5 90)
@@ -2828,6 +2833,7 @@
 		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "69957dc4-ec00-4ce3-99c1-d17e48989109")
 		(at 67.73 83)
@@ -3080,6 +3086,7 @@
 		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7acf97f2-2cd4-4318-a7e7-6321324aa453")
 		(at 79.73 57)
@@ -3332,6 +3339,7 @@
 		)
 	)
 	(footprint "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7b70c25f-f36a-43c6-a15a-ab7c0b72d076")
 		(at 81.5 90.5 90)
@@ -3681,6 +3689,7 @@
 		)
 	)
 	(footprint "SynthStuff:Toggle_Switch_2_Poles_TE"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "87947e3c-2b9e-48a6-bf65-7e0f267dff37")
 		(at 58.5 83)
@@ -4056,6 +4065,7 @@
 		)
 	)
 	(footprint "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9e02365d-64ba-4e0c-83a8-a70a56381d02")
 		(at 81.5 142.5 90)
@@ -4789,6 +4799,7 @@
 		)
 	)
 	(footprint "SynthStuff:Toggle_Switch_TE"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d1e238bc-5bf5-4dea-87e4-be3b8b06a613")
 		(at 58.5 159.25)
@@ -5143,6 +5154,7 @@
 		)
 	)
 	(footprint "SynthStuff:Toggle_Switch_2_Poles_TE"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e83a68bb-034b-4b76-8acf-057478853811")
 		(at 91.5 109)
@@ -5326,6 +5338,7 @@
 		)
 	)
 	(footprint "LED_THT:LED_D3.0mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f48bd6f8-280f-47e5-b460-7c6a29381228")
 		(at 79.73 109)
@@ -5578,6 +5591,7 @@
 		)
 	)
 	(footprint "SynthStuff:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fa325518-6fa6-43b2-81c1-34f78180205e")
 		(at 63.5 64.5 90)
@@ -5927,6 +5941,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "709ae61d-cc00-4df8-83ee-98b3c8980ed5")
 		(at 52.75 102 180)
@@ -6266,6 +6281,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "8569ae65-57dd-4cd8-84f4-402bfdba8a0f")
 		(at 97.2 128 180)
@@ -6605,6 +6621,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "a65e43ae-19e4-453c-9c3f-48158598365b")
 		(at 97.2 76 180)
@@ -6944,6 +6961,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "aeedfb37-d514-4d63-bfdf-9dae9f8406cd")
 		(at 52.75 50 180)

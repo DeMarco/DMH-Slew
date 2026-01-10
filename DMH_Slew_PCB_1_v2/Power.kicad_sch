@@ -5521,8 +5521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "Panel GND"
-			(at 166.37 158.75 90)
+		(property "Function" "GND"
+			(at 163.322 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 102.87 118.11 0)
 			(effects
 				(font
@@ -6440,7 +6440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 52.07 118.11 0)
 			(effects
 				(font
@@ -9223,7 +9223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f80c6d07-53ee-4a68-8d2b-02c45e068606")
-		(property "Reference" "J101"
+		(property "Reference" "J100"
 			(at 25.4 168.91 0)
 			(effects
 				(font
@@ -9325,7 +9325,7 @@
 		(instances
 			(project "DMH-Kosmo-10cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "J101")
+					(reference "J100")
 					(unit 1)
 				)
 			)
