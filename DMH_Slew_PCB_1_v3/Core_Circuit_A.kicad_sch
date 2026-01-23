@@ -4338,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 231.14) (xy 44.45 231.14)
+			(xy 38.1 231.14) (xy 44.45 231.14)
 		)
 		(stroke
 			(width 0)
@@ -4738,16 +4738,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 231.14) (xy 110.49 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f5b573f-bd74-48ee-820c-1eea0adf81a9")
-	)
-	(wire
-		(pts
 			(xy 384.81 80.01) (xy 387.35 80.01)
 		)
 		(stroke
@@ -5065,16 +5055,6 @@
 			(type default)
 		)
 		(uuid "6fda3657-3d28-458c-b54b-ce48d1c717c8")
-	)
-	(wire
-		(pts
-			(xy 34.29 232.41) (xy 34.29 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711e4647-20e9-47fd-87b5-48340255ae4f")
 	)
 	(wire
 		(pts
@@ -5818,6 +5798,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 231.14) (xy 120.65 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85a4ea3-7189-4ce6-90b4-7f25bb1bbd3a")
+	)
+	(wire
+		(pts
 			(xy 200.66 106.68) (xy 203.2 106.68)
 		)
 		(stroke
@@ -5895,16 +5885,6 @@
 			(type default)
 		)
 		(uuid "bfc9f558-fdb0-4c91-8697-ff9a16a0d863")
-	)
-	(wire
-		(pts
-			(xy 110.49 231.14) (xy 110.49 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfe0edd6-e705-4b2d-8012-cce3430c011e")
 	)
 	(wire
 		(pts
@@ -8907,72 +8887,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01f62fe0-cb68-4ba0-a785-88f430dc4e4b")
-		(property "Reference" "#PWR091"
-			(at 110.49 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69df7c4b-3e1e-44bd-88f0-b637845c5b53")
-		)
-		(instances
-			(project "DMH_Slew_PCB_1_v3"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC558")
 		(at 228.6 173.99 270)
 		(mirror x)
@@ -9534,6 +9448,73 @@
 			(project "DMH_Slew_PCB_1_v3"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 38.1 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "111b4f80-4b22-4475-a112-c11cbbef5c9f")
+		(property "Reference" "#PWR087"
+			(at 41.91 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 34.29 231.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 38.1 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff18bf7a-04a9-42be-8b39-f37ce299bfe1")
+		)
+		(instances
+			(project "DMH_Slew_PCB_1_v3"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -15448,73 +15429,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 232.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6016634-00ec-44cf-ad07-1aa20520adf1")
-		(property "Reference" "#PWR087"
-			(at 34.29 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d900fe12-8e44-46b1-b096-67f5bf3e1ba9")
-		)
-		(instances
-			(project "DMH_Slew_PCB_1_v3"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 67.31 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15574,6 +15488,73 @@
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 114.3 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dab1ecaa-cb2b-4f45-a3f3-2c2e1783cbb3")
+		(property "Reference" "#PWR091"
+			(at 118.11 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 110.49 231.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 114.3 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4021693-ce72-4aed-999c-69555775b7e1")
+		)
+		(instances
+			(project "DMH_Slew_PCB_1_v3"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
