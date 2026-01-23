@@ -5575,6 +5575,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "18308e64-8aba-4a68-ba76-9380d8e6746a")
 		(at 83 130 180)
@@ -6751,6 +6752,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "39dd7350-c330-4fcc-8c05-9c8b5ca2ea08")
 		(at 64 84 180)
@@ -7779,6 +7781,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "5387081d-b843-4649-a1f3-a42c334b724f")
 		(at 64 100 180)
@@ -9535,6 +9538,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "7a9cf5a8-5177-424c-8c44-7168d1454070")
 		(at 83 84 180)
@@ -10333,6 +10337,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "b0500972-890b-4cf7-8095-90fd4339e6c9")
 		(at 64 130 180)
@@ -12191,6 +12196,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "ce3821e8-190d-472f-8d74-5a25c2f8ccb0")
 		(at 83 100 180)
