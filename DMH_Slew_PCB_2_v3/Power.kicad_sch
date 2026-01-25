@@ -2419,10 +2419,22 @@
 		(uuid "33495cf0-0d10-4408-b7f0-9ffa44305b4d")
 	)
 	(junction
+		(at 134.62 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3aa26851-5fe5-473a-bad1-f3cd4fca9e21")
+	)
+	(junction
 		(at 63.5 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d10b8d3-5450-4bfe-8012-96f899068441")
+	)
+	(junction
+		(at 119.38 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e2f9587-f31d-4091-bf43-3038027bfdd8")
 	)
 	(junction
 		(at 36.83 180.34)
@@ -2493,10 +2505,6 @@
 	(no_connect
 		(at 19.05 193.04)
 		(uuid "06fc28ac-7f55-41ab-8a66-96b9fb259fc8")
-	)
-	(no_connect
-		(at 120.65 115.57)
-		(uuid "3f1cd5d7-b166-443b-b08a-6609db5835ca")
 	)
 	(no_connect
 		(at 19.05 187.96)
@@ -2599,6 +2607,16 @@
 			(type default)
 		)
 		(uuid "2580b71e-7e54-4a79-a285-bf489f104cf0")
+	)
+	(wire
+		(pts
+			(xy 119.38 123.19) (xy 119.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b6152d-b450-4fbc-ac04-563e36e4f26b")
 	)
 	(wire
 		(pts
@@ -3052,6 +3070,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 123.19) (xy 134.62 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd9757a-0f91-4f44-b709-57911125070f")
+	)
+	(wire
+		(pts
 			(xy 133.35 189.23) (xy 133.35 190.5)
 		)
 		(stroke
@@ -3182,6 +3210,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 123.19) (xy 134.62 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea193ddf-e3f4-45bc-b3cd-1f35aa28737e")
+	)
+	(wire
+		(pts
+			(xy 120.65 123.19) (xy 119.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbd25ef-3c84-4329-a42c-38194b648b83")
+	)
+	(wire
+		(pts
 			(xy 134.62 125.73) (xy 134.62 128.27)
 		)
 		(stroke
@@ -3230,29 +3278,7 @@
 		)
 		(uuid "f605a6a8-5231-4e82-8943-081ed5fc9622")
 	)
-	(global_label "B_Out_Jack_TN_M"
-		(shape passive)
-		(at 133.35 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "121c8283-b7e6-4ed4-954c-9e70afaa1062")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6636 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A_Out_Jack_TN_M"
+	(global_label "A_R_Gate_Jack_TN_M"
 		(shape passive)
 		(at 120.65 118.11 180)
 		(fields_autoplaced yes)
@@ -3262,9 +3288,9 @@
 			)
 			(justify right)
 		)
-		(uuid "28653d62-60e9-450b-863c-84ff3df418a5")
+		(uuid "2730b37d-9d7f-4944-841f-011a79df0609")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.5178 118.11 0)
+			(at 98.2521 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,28 +3302,6 @@
 	)
 	(global_label "B_F_Gate_Jack_TN_M"
 		(shape passive)
-		(at 133.35 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "693c6ce6-5db1-4d4a-a4ea-c2cc962829ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.7479 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B_R_Gate_Jack_TN_M"
-		(shape passive)
 		(at 133.35 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3306,9 +3310,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6c286ee6-d79e-4ebe-9afc-631aedca70f6")
+		(uuid "35859623-0b1c-4c31-84f7-986b9c89c3c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9293 120.65 0)
+			(at 155.7479 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,24 +3322,24 @@
 			)
 		)
 	)
-	(global_label "B_Input_Jack_TN_M"
+	(global_label "A_F_Gate_Jack_TN_M"
 		(shape passive)
-		(at 133.35 115.57 0)
+		(at 120.65 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "ad82eee2-c356-4ac5-bdd5-e683a5e8ce6e")
+		(uuid "700c6436-d1ea-4af3-bb9d-75e9ae2c4375")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.2359 115.57 0)
+			(at 98.4335 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3362,9 +3366,9 @@
 			)
 		)
 	)
-	(global_label "A_F_Gate_Jack_TN_M"
+	(global_label "A_Out_Jack_TN_M"
 		(shape passive)
-		(at 120.65 123.19 180)
+		(at 120.65 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3372,9 +3376,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c26111b2-4ac3-4263-ad82-d7fe98a2074b")
+		(uuid "c31f81c0-3f39-4afb-8dff-7ea5b4788544")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4335 123.19 0)
+			(at 101.5178 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,24 +3388,46 @@
 			)
 		)
 	)
-	(global_label "A_R_Gate_Jack_TN_M"
+	(global_label "B_R_Gate_Jack_TN_M"
 		(shape passive)
-		(at 120.65 120.65 180)
+		(at 133.35 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c94692bd-862f-407f-8334-a41c8f35dc64")
+		(uuid "c7f8f01b-ae78-4f05-b43e-d3402d2f1478")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.2521 120.65 0)
+			(at 155.9293 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B_Out_Jack_TN_M"
+		(shape passive)
+		(at 133.35 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cee94671-0f74-42b0-b526-5b412470a8dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6636 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
