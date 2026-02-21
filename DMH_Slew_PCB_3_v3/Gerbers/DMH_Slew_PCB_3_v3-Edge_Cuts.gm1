@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.7*%
+%TF.CreationDate,2026-02-21T19:49:46+01:00*%
+%TF.ProjectId,DMH_Slew_PCB_3_v3,444d485f-536c-4657-975f-5043425f335f,1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.7) date 2026-02-21 19:49:46*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X50000000Y-30000000D02*
+X100000000Y-30000000D01*
+X100000000Y-130000000D01*
+X50000000Y-130000000D01*
+X50000000Y-30000000D01*
+M02*
