@@ -3120,7 +3120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "3k3"
 			(at 252.73 114.2999 0)
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k8"
+		(property "Value" "3k3"
 			(at 252.73 46.9899 0)
 			(effects
 				(font

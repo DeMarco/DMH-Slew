@@ -1,5 +1,5 @@
 Drill report for DMH_Slew_PCB_3_v3.kicad_pcb
-Created on 2026-02-21T19:49:51+0100
+Created on 2026-04-05T21:43:20+0200
 
 Copper Layer Stackup:
     =============================================================
@@ -10,8 +10,8 @@ Copper Layer Stackup:
 Drill file 'DMH_Slew_PCB_3_v3-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.800mm  0.0315"  (150 holes)
-    T2  1.000mm  0.0394"  (24 holes)
+    T1  0,800mm  0,0315"  (150 holes)
+    T2  1,000mm  0,0394"  (24 holes)
 
     Total plated holes count 174
 

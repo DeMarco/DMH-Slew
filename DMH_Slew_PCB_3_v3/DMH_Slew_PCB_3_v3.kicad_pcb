@@ -2722,7 +2722,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "3k3"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "449564a2-fd4b-4254-bf28-fafaa45c3b36")
@@ -6269,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "3k3"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "b9848e12-a6a9-464c-a4d2-c0b33990cd2a")
