@@ -2115,7 +2115,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 -13.97 0)
+				(at 0 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2123,7 +2123,7 @@
 				)
 			)
 			(property "Value" "SW_DPDT"
-				(at 0 -11.43 0)
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
+			(property "Description" "DPDT switch, ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2157,7 +2157,18 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON ON-OFF-ON"
+			(property "Function" "Function"
+				(at 0 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(italic yes)
+					)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3548,62 +3559,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 133.35 152.4)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 60ab725a-24d6-47c5-ae30-0fe141567188)
-	)
-	(circle
-		(center 279.146 65.024)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d9b60a6b-1c07-4c2c-a957-4e1e062a7303)
-	)
-	(circle
-		(center 172.466 179.324)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e028d915-dcb0-4db9-ad6a-355679e6ec7b)
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 133.604 144.526 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "26819a12-0574-4119-8560-ae361bbd2cd4")
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 279.4 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7f1ff838-89fb-4873-8868-38856b6bb35b")
-	)
 	(text "2x SPST switches"
 		(exclude_from_sim no)
 		(at 141.478 100.076 0)
@@ -3613,16 +3568,6 @@
 			)
 		)
 		(uuid "e4c88188-03f0-4c7d-b56b-c73fccea6d34")
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 172.72 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e92512ab-988b-462f-853e-f604906c0b16")
 	)
 	(junction
 		(at 215.9 139.7)
@@ -4908,16 +4853,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 271.78) (xy 110.49 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "641923b1-5292-4035-aad3-ddf4184af943")
-	)
-	(wire
-		(pts
 			(xy 29.21 228.6) (xy 44.45 228.6)
 		)
 		(stroke
@@ -6108,16 +6043,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 271.78) (xy 110.49 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e64dbb-0cfd-4e2e-abdb-760334633964")
-	)
-	(wire
-		(pts
 			(xy 384.81 68.58) (xy 393.7 68.58)
 		)
 		(stroke
@@ -7010,7 +6935,7 @@
 			)
 		)
 	)
-	(global_label "Bus_CV_M"
+	(global_label "A_In_Jack_TN_M"
 		(shape passive)
 		(at 58.42 162.56 0)
 		(fields_autoplaced yes)
@@ -7022,7 +6947,7 @@
 		)
 		(uuid "20f46c23-558f-4993-a603-a9d7995d2840")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5975 162.56 0)
+			(at 74.9895 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,6 +6997,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A_Loopback_M"
+		(shape passive)
+		(at 120.65 271.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29ac1fec-5f59-4d09-9986-d6d4f6e5258d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.4111 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9234,7 +9181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 322.58 76.2 0)
 			(effects
 				(font
@@ -9572,7 +9519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 241.3 113.03 0)
 			(effects
 				(font
@@ -9784,7 +9731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 265.43 215.8999 90)
 			(effects
 				(font
@@ -10398,7 +10345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -11137,7 +11084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 22.86 228.5999 90)
 			(effects
 				(font
@@ -11278,7 +11225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 190.5 113.03 0)
 			(effects
 				(font
@@ -11352,7 +11299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 163.83 241.2999 90)
 			(effects
 				(font
@@ -12991,7 +12938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 44.45 68.58 0)
 			(effects
 				(font
@@ -14108,72 +14055,6 @@
 			(project "DMH_Slew_PCB_1_v3"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 273.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b391fa6c-347e-4f86-87b6-4ba4ed28b53e")
-		(property "Reference" "#PWR022"
-			(at 110.49 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a40ffb4e-9ed1-43a6-892a-9e137ce4837c")
-		)
-		(instances
-			(project ""
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16324,7 +16205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 99.06 228.5999 90)
 			(effects
 				(font

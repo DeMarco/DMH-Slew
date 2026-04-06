@@ -1807,50 +1807,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 130.81 55.88)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 85942b40-c197-4178-9c78-5ddd36dfe90f)
-	)
-	(circle
-		(center 130.556 121.92)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f4e5b411-ff90-479a-9777-504271215592)
-	)
-	(text "5M1 in bb"
-		(exclude_from_sim no)
-		(at 137.16 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b29d2ac7-6ee9-48c2-bbf4-ce1c3d849c46")
-	)
-	(text "5M1 in bb"
-		(exclude_from_sim no)
-		(at 137.414 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fd3dc00d-72d1-4ca7-b58c-6bf1e377ea12")
-	)
 	(junction
 		(at 139.7 82.55)
 		(diameter 0)

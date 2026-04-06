@@ -1930,343 +1930,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch_DPDT_1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPDT"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON ON-OFF-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Switch_DPDT_1_0_0"
-				(circle
-					(center -2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -7.62)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Switch_DPDT_1_0_1"
-				(polyline
-					(pts
-						(xy -1.524 5.334) (xy 2.3368 7.0612)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -4.826) (xy 2.3368 -3.0988)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.874) (xy 0 6.096)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 7.62)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Switch_DPDT_1_1_1"
-				(rectangle
-					(start -3.175 8.89)
-					(end 3.175 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SynthStuff:SW_SPDT_OnOffOn"
 			(pin_names
 				(offset 0)
@@ -2452,7 +2115,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 -13.97 0)
+				(at 0 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2460,7 +2123,7 @@
 				)
 			)
 			(property "Value" "SW_DPDT"
-				(at 0 -11.43 0)
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2485,7 +2148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
+			(property "Description" "DPDT switch, ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2494,7 +2157,18 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON ON-OFF-ON"
+			(property "Function" "Function"
+				(at 0 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(italic yes)
+					)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3885,62 +3559,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 279.146 65.024)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8542d41a-6c79-4682-841c-65d08dae6074)
-	)
-	(circle
-		(center 172.466 179.324)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8ba3452c-ff5c-4c6e-91b4-890c6053e5b6)
-	)
-	(circle
-		(center 133.35 152.4)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fb915242-baa7-4baf-ad11-c8350ec80569)
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 172.72 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3136e9bc-35e7-465e-b249-ee6f30a1d054")
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 133.604 144.526 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5b7bd99a-fa7b-4e54-b339-2c7d2d6f40e4")
-	)
 	(text "2x SPST switches"
 		(exclude_from_sim no)
 		(at 141.478 100.076 0)
@@ -3950,16 +3568,6 @@
 			)
 		)
 		(uuid "72c09f09-ecbc-44e5-93e3-9759103349f7")
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 279.4 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cf06cfc0-94d7-42d9-9f61-14df6e9bfa08")
 	)
 	(junction
 		(at 228.6 139.7)
@@ -4825,16 +4433,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 162.56) (xy 74.93 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "317c1b45-6821-4382-bd1f-6cc81f7aaa54")
-	)
-	(wire
-		(pts
 			(xy 147.32 87.63) (xy 154.94 87.63)
 		)
 		(stroke
@@ -4882,6 +4480,16 @@
 			(type default)
 		)
 		(uuid "364ca172-719f-4c73-bcab-4e588a7ca647")
+	)
+	(wire
+		(pts
+			(xy 55.88 162.56) (xy 58.42 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3827e966-e17f-4361-bcdc-8ee8c1a43575")
 	)
 	(wire
 		(pts
@@ -5485,16 +5093,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 162.56) (xy 74.93 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724332d3-dd4d-4950-bc31-b47108f69158")
-	)
-	(wire
-		(pts
 			(xy 288.29 134.62) (xy 292.1 134.62)
 		)
 		(stroke
@@ -5862,16 +5460,6 @@
 			(type default)
 		)
 		(uuid "941c1b03-dfa5-4f6b-a388-97481b9fb45b")
-	)
-	(wire
-		(pts
-			(xy 74.93 187.96) (xy 83.82 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94bf8a64-5048-4323-b3b7-9e05c82aa720")
 	)
 	(wire
 		(pts
@@ -7435,6 +7023,28 @@
 			)
 		)
 	)
+	(global_label "B_In_Jack_TN_M"
+		(shape passive)
+		(at 58.42 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3809759d-9418-44ae-994d-711bd08caa5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.1709 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "B_CV_Buff_C"
 		(shape passive)
 		(at 121.92 85.09 180)
@@ -8262,28 +7872,6 @@
 		(uuid "99c58fee-73d6-495a-a4ca-544177cc5c2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.5051 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B_Loopback_M"
-		(shape passive)
-		(at 83.82 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a01f116e-7f8d-4dc4-8ad0-06d636e24528")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.2403 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9708,7 +9296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 190.5 113.03 0)
 			(effects
 				(font
@@ -12138,7 +11726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 322.58 76.2 0)
 			(effects
 				(font
@@ -12939,7 +12527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 265.43 215.8999 90)
 			(effects
 				(font
@@ -13156,7 +12744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 163.83 241.2999 90)
 			(effects
 				(font
@@ -13230,7 +12818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 241.3 113.03 0)
 			(effects
 				(font
@@ -14721,7 +14309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 22.86 228.5999 90)
 			(effects
 				(font
@@ -15088,7 +14676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -16258,7 +15846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 44.45 68.58 0)
 			(effects
 				(font
@@ -16382,7 +15970,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Switch_DPDT_1")
 		(lib_id "SynthStuff:Switch_DPDT")
 		(at 142.24 82.55 180)
 		(unit 1)
@@ -16876,7 +16463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 99.06 228.5999 90)
 			(effects
 				(font

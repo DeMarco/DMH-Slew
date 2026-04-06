@@ -514,6 +514,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+10V": [
+        "Power"
+      ],
       "Net-(D1-K)": [
         "Power"
       ],

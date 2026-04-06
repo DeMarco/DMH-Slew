@@ -2115,7 +2115,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 -13.97 0)
+				(at 0 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2123,7 +2123,7 @@
 				)
 			)
 			(property "Value" "SW_DPDT"
-				(at 0 -11.43 0)
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
+			(property "Description" "DPDT switch, ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2157,7 +2157,18 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON ON-OFF-ON"
+			(property "Function" "Function"
+				(at 0 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(italic yes)
+					)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3548,52 +3559,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 133.35 152.4)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 43bd132e-7864-4df2-9ecf-22de794c7996)
-	)
-	(circle
-		(center 172.466 179.324)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d5f7f3d5-3be8-4763-a5ff-4e6ff964641e)
-	)
-	(circle
-		(center 279.146 65.024)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e6a1f968-31f8-4f13-95d6-4056114f6da4)
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 172.72 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1797e78e-c752-4d72-b523-7adb077a4107")
-	)
 	(text "2x SPST switches"
 		(exclude_from_sim no)
 		(at 141.478 100.076 0)
@@ -3603,26 +3568,6 @@
 			)
 		)
 		(uuid "4a3bee36-4a98-42e7-a01c-357b70fc1cd2")
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 279.4 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a799b087-f95a-4254-95dd-1c14980fea93")
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 133.604 144.526 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "abf50eb6-0449-4bcf-a6e5-22789606a618")
 	)
 	(junction
 		(at 374.65 90.17)
@@ -4885,16 +4830,6 @@
 			(type default)
 		)
 		(uuid "6212536f-840d-4af2-900e-1793cb987880")
-	)
-	(wire
-		(pts
-			(xy 73.66 187.96) (xy 83.82 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62316aad-e9c8-4f35-888f-f25a603ef39a")
 	)
 	(wire
 		(pts
@@ -6208,16 +6143,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 162.56) (xy 73.66 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3545885-0422-49c7-9622-bf24cdef1f67")
-	)
-	(wire
-		(pts
 			(xy 292.1 67.31) (xy 298.45 67.31)
 		)
 		(stroke
@@ -6398,16 +6323,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 162.56) (xy 73.66 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6642176-7456-4476-87de-9f6150fa071b")
-	)
-	(wire
-		(pts
 			(xy 347.98 129.54) (xy 347.98 130.81)
 		)
 		(stroke
@@ -6425,6 +6340,16 @@
 			(type default)
 		)
 		(uuid "e6bd82d9-730b-4c14-93d8-c84e1a5a5ee5")
+	)
+	(wire
+		(pts
+			(xy 58.42 162.56) (xy 55.88 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b61f26-06d2-4d06-8c1d-1282deb44d98")
 	)
 	(wire
 		(pts
@@ -7076,6 +7001,28 @@
 			)
 		)
 	)
+	(global_label "B_In_Jack_TN_M"
+		(shape passive)
+		(at 58.42 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32c49d2b-2854-4be4-9567-32c873f61c6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.1709 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "B_CV_Buff_M"
 		(shape passive)
 		(at 120.65 251.46 180)
@@ -7336,28 +7283,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B_Loopback_M"
-		(shape passive)
-		(at 83.82 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b60ff67-58e0-493b-a62a-f034eecef0c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.2403 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9363,7 +9288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 190.5 113.03 0)
 			(effects
 				(font
@@ -11718,7 +11643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 322.58 76.2 0)
 			(effects
 				(font
@@ -12519,7 +12444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 265.43 215.8999 90)
 			(effects
 				(font
@@ -12736,7 +12661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 163.83 241.2999 90)
 			(effects
 				(font
@@ -12810,7 +12735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 241.3 113.03 0)
 			(effects
 				(font
@@ -14300,7 +14225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 19.05 228.6 90)
 			(effects
 				(font
@@ -14666,7 +14591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -15828,7 +15753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 44.45 68.58 0)
 			(effects
 				(font
@@ -16445,7 +16370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_B"
+		(property "Value" "+10V"
 			(at 99.06 228.5999 90)
 			(effects
 				(font

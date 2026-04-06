@@ -112,7 +112,7 @@
           ""
         ],
         [
-          "silk_over_copper|55791049|75278942|5fd98a43-1d10-4ee3-b554-c5d353ec62ee|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|55791049|75878942|5fd98a43-1d10-4ee3-b554-c5d353ec62ee|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -266,6 +266,7 @@
       ],
       "track_widths": [
         0.0,
+        0.5,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -590,6 +591,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+10V": [
+        "Power"
+      ],
       "Net-(D1-K)": [
         "Power"
       ],

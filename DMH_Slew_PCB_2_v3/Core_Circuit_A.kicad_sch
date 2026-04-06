@@ -2115,7 +2115,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 -13.97 0)
+				(at 0 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2123,7 +2123,7 @@
 				)
 			)
 			(property "Value" "SW_DPDT"
-				(at 0 -11.43 0)
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
+			(property "Description" "DPDT switch, ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2157,7 +2157,18 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON ON-OFF-ON"
+			(property "Function" "Function"
+				(at 0 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(italic yes)
+					)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3548,52 +3559,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 172.466 179.324)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2ea17c9e-c9af-4f01-a205-d686fa725958)
-	)
-	(circle
-		(center 133.35 152.4)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 793401b8-62d2-4490-93a6-fc66bd28322f)
-	)
-	(circle
-		(center 279.146 65.024)
-		(radius 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e208307d-5857-4131-98a1-85dec8d0f634)
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 279.4 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1ed15440-0412-4640-9cef-a25f21b38973")
-	)
 	(text "2x SPST switches"
 		(exclude_from_sim no)
 		(at 141.478 100.076 0)
@@ -3603,26 +3568,6 @@
 			)
 		)
 		(uuid "36af47ad-c711-4bc3-bb02-2800879972fa")
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 133.604 144.526 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c3a0977d-3d26-433c-b0b7-356af82060c5")
-	)
-	(text "22pF in bb"
-		(exclude_from_sim no)
-		(at 172.72 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e0af933f-53f5-49fd-9ce4-3c13216819dc")
 	)
 	(junction
 		(at 154.94 91.44)
@@ -5258,16 +5203,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 271.78) (xy 110.49 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "762a385d-abf8-4278-8317-9e3d9b3d267f")
-	)
-	(wire
-		(pts
 			(xy 87.63 80.01) (xy 85.09 80.01)
 		)
 		(stroke
@@ -6438,16 +6373,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 271.78) (xy 110.49 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b8aeb3-d73a-4b8a-8151-b28393945c99")
-	)
-	(wire
-		(pts
 			(xy 133.35 85.09) (xy 137.16 85.09)
 		)
 		(stroke
@@ -7472,6 +7397,28 @@
 			)
 		)
 	)
+	(global_label "A_In_Jack_TN_M"
+		(shape passive)
+		(at 58.42 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "769a20b0-57b9-452b-b06f-a22ea75c1b5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.9895 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A_Fall_CV_M"
 		(shape passive)
 		(at 185.42 238.76 180)
@@ -7595,28 +7542,6 @@
 		(uuid "7faa86c1-c735-4fcf-9bc3-bc26d84128fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.1989 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bus_CV_M"
-		(shape passive)
-		(at 58.42 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85472947-deac-4f9a-bd08-47aae4cedd51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5975 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,6 +8365,28 @@
 			)
 		)
 	)
+	(global_label "A_Loopback_M"
+		(shape passive)
+		(at 120.65 271.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebe31f04-931d-44eb-880c-50c627079f08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.4111 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A_CV_In_Jack_S"
 		(shape passive)
 		(at 57.15 269.24 0)
@@ -8668,6 +8615,38 @@
 				(type none)
 			)
 			(uuid e044e235-e092-410d-8902-2432871f613b)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 129.54 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "084c2e45-f777-4d6a-b515-7d87a5972d0d")
+		(property "Netclass" "Power"
+			(at 130.2385 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 22.86 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
 		)
 	)
 	(netclass_flag ""
@@ -9234,7 +9213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 322.58 76.2 0)
 			(effects
 				(font
@@ -9505,7 +9484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 241.3 113.03 0)
 			(effects
 				(font
@@ -9717,7 +9696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 265.43 215.8999 90)
 			(effects
 				(font
@@ -10323,7 +10302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -11062,7 +11041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 22.86 228.5999 90)
 			(effects
 				(font
@@ -11203,7 +11182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 190.5 113.03 0)
 			(effects
 				(font
@@ -11277,7 +11256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 163.83 241.2999 90)
 			(effects
 				(font
@@ -12900,7 +12879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 44.45 68.58 0)
 			(effects
 				(font
@@ -16067,73 +16046,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 273.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e60ba805-a2d6-494a-ba19-6f7add6d80d9")
-		(property "Reference" "#PWR0102"
-			(at 110.49 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22a741fe-c469-4d96-bae0-f5cc9f046de1")
-		)
-		(instances
-			(project "DMH_Slew_PCB_2_v3"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SynthStuff:SW_SPDT_OnOffOn")
 		(at 298.45 129.54 180)
 		(unit 1)
@@ -16301,7 +16213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V_A"
+		(property "Value" "+10V"
 			(at 99.06 228.5999 90)
 			(effects
 				(font
