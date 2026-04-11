@@ -3559,16 +3559,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "2x SPST switches"
-		(exclude_from_sim no)
-		(at 141.478 100.076 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "36af47ad-c711-4bc3-bb02-2800879972fa")
-	)
 	(junction
 		(at 154.94 91.44)
 		(diameter 0)
